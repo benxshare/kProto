@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+div,span,p,body{ -webkit-user-select:none; -moz-user-select:none;}
+html,body{ display:block; overflow:hidden; width:100%; height:100%;}
+html, body, div, span, dl, dt, dd, h1,h2,h3,h4,p{ margin:0; padding:0; -webkit-user-select: none;-ms-user-select:none; -moz-user-select:none;}
+body{background:#eee; font-family:  "Microsoft YaHei",Verdana, Geneva, sans-serif; font-size:12px;}
+hr{ display:none;}
+.show{ display:block !important;}
+/* Top Status Bar */
+.kp-top-bar{height:20px; overflow:hidden; line-height:20px;}
+
+.kp-top-cell{ display:inline-block; float:left;}
+
+.kp-top-left,.kp-top-right{ width:30%; height:100%;}
+
+.kp-top-middle{ width:40%; text-align:center;}
+
+.kp-small-icons span, .kp-small-icon{ display:inline-block; width:20px; height:20px; background-repeat:no-repeat;}
+.kp-top-left span{ float:left !important;}
+.kp-top-right span{ float:right !important;}
+.kp-small-icons strong{display:inline-block; float:left; line-height:20px; height:20px;}
+
+.kp-msg-centra{ position:absolute; width:100%; height:100%; z-index:9999; overflow:hidden; display:none;}
+.kp-msg-centra .inner{ margin-top:20px; background:#999; height:100%; position:relative; z-index:9999;}
+
+/* card layout */
+.kp-fixed{ display:block; width:100%; height:100%; overflow:hidden;}
+.kp-card{ position: absolute; z-index:0; cursor:pointer; }
+.kp-card-hd{ overflow:hidden; position:relative; z-index:1;}
+.kp-card-hd-cell{ width:38px;height:38px; position:absolute; z-index:2;}
+.kp-card-hd-cell .kp-btn{ width:20px; height:20px; padding:3px; border:1px solid transparent; margin:6px;}
+.kp-card-hd-title{ text-align:center; color:#FFF; float: left; width:100%; line-height:40px; font-size:20px; text-shadow:0 1px #666;}
+
+.kp-card-hd .kp-left{ left:0; top:0;}
+.kp-card-hd .kp-right{ right:0; top:0;}
+
+/* kp-grid-3x3 */
+.kp-grid-bar{ height: 60px; margin:3px 4px 0 4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.kp-grid-3x3{ height: 325px;}
+.kp-grid-3x3 .kp-row{ padding:2px; overflow:hidden; clear:both;}
+.kp-grid-3x3 .kp-cell{ width:31%; height:100px; float:left; margin-top:5px; margin-left:4px; -webkit-border-radius:4px;-moz-border-radius:4px;}
+
+/* kp-columns-4*/
+.kp-columns-4{ display:block;}
+.kp-columns-4 .kp-column{ width:25%; height:100%; float:left;}
+.kp-columns-4 .kp-column span{ margin: 5px auto;}
+.kp-icon48{ display:block; width:48px; height:48px; overflow:hidden;}
+
+/* search */
+.kp-search-box{ display:block; border: 1px solid #444; margin:12px; height:34px; overflow:hidden; -webkit-border-radius:8px;-moz-border-radius:8px;}
+.kp-search-box input{ display:block; border:none; height:32px; line-height:32px; background: url(images/google.png) no-repeat left center; color: #FFF; padding-left:36px; width:248px; font-size:16px; font-weight:bold;}
+.kp-search-box input:focus{ color:#fff; background-color:#333; border:none;}
+
+/* mask */
+.kp-mask{ background:rgba(0,0,0,0.30) !important;}
+
+/* kp-list */
+
+.kp-view-list{}
+.kp-view-list dl{ display:block; width:100%; height:48px; padding:5px; overflow:hidden; background:#FFF; border-bottom:1px solid #ddd;}
+.kp-view-list dt{ display:block; float:left;}
+.kp-view-list dd{ display:block;}
+.kp-view-list strong{ font-size:14px; font-weight:bold; background-color: transparent}

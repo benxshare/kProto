@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.kp-app-icon-dashboard{ background-image:url(images/apps64/dashboard.png);}
+.kp-app-icon-mail{ background-image:url(images/apps64/mail.png);}
+.kp-app-icon-preview{ background-image:url(images/apps64/preview.png);}
+.kp-app-icon-setting{ background-image:url(images/apps64/setting.png);}
+.kp-app-icon-iphoto{ background-image:url(images/apps64/iphoto.png);}
+.kp-app-icon-games{ background-image:url(images/apps64/games.png);}
+.kp-app-icon-calc{ background-image: url(images/apps64/calc.png);}
+.kp-app-icon-iTunes{ background-image: url(images/apps64/iTunes.png);}
+.kp-app-icon-safari{ background-image: url(images/apps64/safari.png);}
+.kp-app-icon-sms{ background-image: url(images/apps64/sms.png);}
+.kp-app-icon-easyconect{ background-image: url(images/apps64/easyconect.png);}

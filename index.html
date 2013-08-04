@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>框架</title>
+<link href="css/mobile_frm.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/default/skin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/kp.js"></script>
+</head>
+
+<body>
+<div class="device iphone4">
+  <div class="earphone"></div>
+  <div class="wrapper">
+  <div class="tch-screen">
+  <div class="kp-top-bar">
+  <div class="kp-top-cell kp-small-icons kp-top-left"> <span class="ico-isp"></span><strong>Telcom</strong> </div>
+  <div class="kp-top-cell kp-top-middle"> <strong>&nbsp;</strong> </div>
+  <div class="kp-top-cell kp-small-icons kp-top-right"> <span class="ico-battery"></span><span class="ico-clock"></span><span class="ico-wireless"></span> </div>
+</div>
+  <iframe id="main" width="100%" frameborder="0" src="start.html"></iframe>
+  </div></div>
+  <div id="homeButton" class="home-button"><span></span></div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+
+$(document).ready(function(e) {
+    var timer = window.setInterval(function(){
+		var time = new Date().format("HH:mm NN");
+		$(".kp-top-middle strong").html(time);
+	}, 1000);
+	$("#main").height($(".tch-screen").height() - $('.kp-top-bar').height());
+});
+</script>

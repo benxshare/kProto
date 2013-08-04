@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.kp-card{ display:none;}
+#home{ display:block;}
+#ec-login{ background:#F00;}
+#ec-list{ background:#ccc;}

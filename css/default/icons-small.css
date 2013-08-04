@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* small icons for phone */
+
+.kp-small-icons span,
+.kp-small-icon { background-image:url(images/icons_16_white.png);}
+
+.ico-isp{ background-position: -152px -442px;}
+.ico-clock{ background-position:-401px -279px;}
+.ico-battery{ background-position: -617px -442px;}
+.ico-wireless{ background-position: -121px -606px;}
+.ico-menu, .ico-just{ background-position:-370px -320px;}
+
+.ico-return, .ico-west{ background-position: -121px -32px;}

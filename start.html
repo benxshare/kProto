@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>start</title>
+<link href="css/mobile_frm.css" rel="stylesheet" type="text/css" />
+<link href="css/default/skin.css" rel="stylesheet" type="text/css" />
+<link href="css/easyconect.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.iphone-slide.min.js"></script>
+<script type="text/javascript" src="js/kp-main.js"></script>
+</head>
+
+<body>
+<div id="cards" class="cards">
+  <div class="cards-inner">
+    <hr />
+    <div id="home" class="kp-card kp-fixed">
+      <div class="kp-card-hd">
+        <div class="kp-grid-bar">
+          <div class="kp-search-box">
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="kp-card-bd">
+        <div class="kp-grid-3x3">
+          <div class="kp-cell kp-app-icon-dashboard"></div>
+          <div class="kp-cell kp-app-icon-calc" action="_pop:#ec-login;"></div>
+          <div class="kp-cell kp-app-icon-games"></div>
+          <div class="kp-cell kp-app-icon-iphoto" action="_pop:#ec-login;"></div>
+          <div class="kp-cell kp-app-icon-iTunes"></div>
+          <div class="kp-cell kp-app-icon-mail" action="_pop:#ec-login;"></div>
+          <div class="kp-cell kp-app-icon-preview"></div>
+          <div class="kp-cell kp-app-icon-easyconect" action="_pop:#ec-login;"></div>
+          <div class="kp-cell kp-app-icon-setting"></div>
+        </div>
+        <div class="kp-grid-bar kp-columns-4">
+          <div class="kp-column"><span class="kp-icon48 kp-app-icon48-call"></span></div>
+          <div class="kp-column"><span class="kp-icon48 kp-app-icon48-sms"></span></div>
+          <div class="kp-column"><span class="kp-icon48 kp-app-icon48-safari"></span></div>
+          <div class="kp-column"><span class="kp-icon48 kp-app-icon48-contacts"></span></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div id="ec-login" class="kp-card kp-fixed">
+    
+    <div class="kp-form">
+<dl class="kp-form-row">
+<dt>IP:</dt>
+<dd><input type="text" /></dd>
+</dl>
+    <dl><dd><button class="kp-btn" action="_pop:#ec-login-mask,2;o_o:3000;_:#ec-login-mask,2;$out:#ec-login,left;$in:#ec-list,right;">Go</button></dd></dl>
+    </div>
+    
+    </div>
+    <hr />
+    <div id="ec-login-mask" class="kp-card kp-fixed kp-mask">
+    <div class="kp-waiting-bar">
+    <dl>
+    <dt><span class="kp-icon48 gif-waiting-48"></span></dt>
+    <dd>正在连接，请稍后...</dd>
+    </dl>
+    </div>
+    </div>
+    <hr />
+    <div id="ec-list" class="kp-card kp-fixed">
+    	<div class="kp-card-hd">
+        <div class="kp-card-hd-cell kp-left">
+        <div class="kp-btn" action="slideOut:#ec-list,right;slideIn:#ec-login,left;"><span class="kp-small-icon ico-return"></span></div>
+        </div>
+        <div class="kp-card-hd-title">Resources</div>
+        <div class="kp-card-hd-cell kp-right"></div>
+        </div>
+        <div class="kp-card-bd">
+        <div class="kp-view-list">
+        <dl>
+        <dt><em rel="checkbox"></em><span class="kp-icon48 kp-app-icon48-call"></span></dt>
+        <dd>
+        <div class="kp-list-item">
+        <p><strong>Docs</strong></p>
+        <p>the default folder</p>
+        </div>
+        <div class="kp-list-more"><span class="kp-small-icon ico-more"></span></div>
+        </dd>
+        </dl>
+                <dl>
+        <dt><span class="kp-icon48 kp-app-icon48-call"></span></dt>
+        <dd>
+        </dd>
+        </dl>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

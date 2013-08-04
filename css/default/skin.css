@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("icons-small.css");
+@import url("icons-apps.css");
+@import url("icons-apps-48.css");
+.kp-top-bar{ background-color:#000; color:#FFF;}
+.kp-btn:hover {
+	background: -moz-linear-gradient(top, #B4BFCD, #6E84A1, 0.5));
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#B4BFCD), to(#6E84A1));
+}
+
+.kp-btn:active {
+	background: -moz-linear-gradient(top, #ccc, #eee, 0.5));
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ccc), to(#eee));
+}
+
+
+.kp-btn{ -webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;}
+.kp-btn:hover{ border-color: #eee #666 #666 #eee;}
+.kp-btn:active{ border-color: #666 #eee #eee #666;}
+
+.kp-toolbar{ background:#000; height:24px;}
+
+.kp-card{ background:#111;}
+
+.kp-grid-3x3 .kp-cell, .kp-grid-bar{ background-color:#202224; border-color:#383b3f #111 #111 #202224; border-width:1px; border-style:solid; box-shadow:0 1px 4px #000; background-repeat:no-repeat; background-position:center;}
+
+.kp-grid-3x3 .kp-cell:active{ border-color:#111 #383b3f  #202224  #111; background-color:#333;}
+
+.kp-grid-bar span:active{ background-color:#333;}
